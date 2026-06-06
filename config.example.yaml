@@ -1,0 +1,93 @@
+search:
+  keywords:
+    - '"AI engineer" OR "ML engineer" OR "LLM engineer"'
+    - '"generative AI" OR "GenAI" python'
+  remote_filter: true
+  date_posted: "past_24h"
+  max_pages: 2
+  page_delay_seconds: 5
+  locations:
+    - name: "Worldwide"
+      geo_id: "92000000"
+
+filters:
+  recency_days: 7
+  include_titles:
+    - "ai engineer"
+    - "ml engineer"
+    - "machine learning"
+    - "llm"
+    - "genai"
+    - "generative ai"
+    - "nlp"
+    - "data scientist"
+    - "backend engineer"
+    - "python engineer"
+    - "applied scientist"
+    - "computer vision"
+  include_skills:
+    - "python"
+    - "langchain"
+    - "langgraph"
+    - "rag"
+    - "llm"
+    - "openai"
+    - "bedrock"
+    - "faiss"
+    - "vector"
+    - "embeddings"
+    - "fastapi"
+    - "mongodb"
+    - "redis"
+    - "aws"
+    - "docker"
+    - "pytorch"
+    - "tensorflow"
+    - "computer vision"
+    - "opencv"
+    - "pydantic"
+    - "asyncio"
+    - "agentic"
+  exclude_companies:
+    - "Crossover"
+    - "Toptal"
+    - "Turing"
+    - "Andela"
+    - "Revelo"
+  exclude_keywords:
+    - "staffing"
+    - "recruitment agency"
+    - "talent network"
+    - "bench sales"
+  location_red_flags:
+    - "must be based in"
+    - "must reside in"
+    - "US only"
+    - "UK only"
+    - "EU only"
+    - "candidates must be located"
+    - "work authorization required"
+    - "US citizen"
+  location_green_flags:
+    - "work from anywhere"
+    - "globally remote"
+    - "any location"
+    - "fully remote"
+    - "no location restriction"
+    - "worldwide"
+    - "global"
+    - "remote - international"
+    - "anywhere in the world"
+    - "location flexible"
+    - "open to all locations"
+    - "remote-first"
+    - "distributed team"
+    - "work remotely from any"
+    - "remote (global)"
+    - "remote (worldwide)"
+    - "remote (international)"
+    - "remote (anywhere)"
+
+browser:
+  user_data_dir: "./user_data"
+  headless: false

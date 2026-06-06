@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+*.egg-info/
+.playwright/
+user_data/
+seen_jobs.json
+resume/
+docs/
+tests/
