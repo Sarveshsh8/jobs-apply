@@ -99,7 +99,7 @@ def filter_listings(
         if not is_recent(listing, config):
             continue
         verdict, reason = check_location(listing, config)
-        if verdict != LocationVerdict.OPEN:
+        if verdict == LocationVerdict.RESTRICTED:
             continue
         results.append((listing, verdict, reason))
         cache.add(listing.job_id)

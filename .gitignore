@@ -6,6 +6,7 @@ dist/
 .playwright/
 user_data/
 seen_jobs.json
+output/
 resume/
 docs/
 tests/

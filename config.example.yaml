@@ -2,9 +2,13 @@ search:
   keywords:
     - '"AI engineer" OR "ML engineer" OR "LLM engineer"'
     - '"generative AI" OR "GenAI" python'
+    - '"machine learning" engineer remote'
+    - '"NLP engineer" OR "AI developer"'
+    - 'RAG LangChain python'
+    - '"computer vision" engineer python'
   remote_filter: true
-  date_posted: "past_24h"
-  max_pages: 2
+  date_posted: "past_week"
+  max_pages: 3
   page_delay_seconds: 5
   locations:
     - name: "Worldwide"
@@ -25,6 +29,9 @@ filters:
     - "python engineer"
     - "applied scientist"
     - "computer vision"
+    - "ai developer"
+    - "deep learning"
+    - "research engineer"
   include_skills:
     - "python"
     - "langchain"
@@ -48,6 +55,9 @@ filters:
     - "pydantic"
     - "asyncio"
     - "agentic"
+    - "transformers"
+    - "hugging face"
+    - "mlops"
   exclude_companies:
     - "Crossover"
     - "Toptal"

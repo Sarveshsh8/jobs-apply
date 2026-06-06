@@ -7,7 +7,7 @@ from .config import load_config
 from .extractor import extract_listings
 from .filters import SeenJobsCache, filter_listings
 from .navigator import iter_search_pages
-from .reporter import print_results
+from .reporter import save_to_excel
 
 
 @click.command()
@@ -27,7 +27,7 @@ def main(config_path: str):
 
         print(f"\nExtracted {len(all_listings)} total listings")
         results = filter_listings(all_listings, cfg.filters, cache)
-        print_results(results)
+        save_to_excel(results)
         cache.save()
     finally:
         session.close()

@@ -2,17 +2,17 @@ search:
   keywords:
     - '"AI engineer" OR "ML engineer" OR "LLM engineer"'
     - '"generative AI" OR "GenAI" python'
+    - '"machine learning" engineer remote'
+    - '"NLP engineer" OR "AI developer"'
+    - 'RAG LangChain python'
+    - '"computer vision" engineer python'
   remote_filter: true
-  date_posted: "past_24h"
-  max_pages: 2
+  date_posted: "past_week"
+  max_pages: 3
   page_delay_seconds: 5
   locations:
-    - name: "Asia Pacific"
-      geo_id: "104598607"
-    - name: "Europe"
-      geo_id: "100506914"
     - name: "Worldwide"
-      geo_id: ""
+      geo_id: "92000000"
 
 filters:
   recency_days: 7
@@ -29,6 +29,9 @@ filters:
     - "python engineer"
     - "applied scientist"
     - "computer vision"
+    - "ai developer"
+    - "deep learning"
+    - "research engineer"
   include_skills:
     - "python"
     - "langchain"
@@ -52,6 +55,9 @@ filters:
     - "pydantic"
     - "asyncio"
     - "agentic"
+    - "transformers"
+    - "hugging face"
+    - "mlops"
   exclude_companies:
     - "Crossover"
     - "Toptal"
@@ -81,6 +87,16 @@ filters:
     - "worldwide"
     - "global"
     - "remote - international"
+    - "anywhere in the world"
+    - "location flexible"
+    - "open to all locations"
+    - "remote-first"
+    - "distributed team"
+    - "work remotely from any"
+    - "remote (global)"
+    - "remote (worldwide)"
+    - "remote (international)"
+    - "remote (anywhere)"
 
 browser:
   user_data_dir: "./user_data"
